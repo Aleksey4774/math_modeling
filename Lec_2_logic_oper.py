@@ -4,7 +4,7 @@ c = 5
 
 if a > 4 and b == 2:
     print("GOOD")
-elif b > 3or c == 5:
+elif b > 3 or c == 5:
     print("BEST")    
 else:
     print("BAD")

@@ -1,5 +1,7 @@
-b = int(input("Введите год: "))
-if b % 400 == 0 and b % 4:
+year = int(input("Введите год: "))
+if year % 400 == 0:
     print("Год високосный ")
-else:
+elif year % 100 != 0 and year % 4 == 0:
+    print("Год высокосный")
+else:    
     print("Год не високосный  ")  
