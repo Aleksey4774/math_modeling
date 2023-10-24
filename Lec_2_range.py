@@ -8,29 +8,4 @@ for i in range(0, 10, 1):
     if i < len(a):
         print(a[i] +" - Bad")
     else:
-<<<<<<< Updated upstream
         print(f"{i}"+ " - GOOD")
-=======
-        print(f"{i}"+ " - GOOD")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> Stashed changes
