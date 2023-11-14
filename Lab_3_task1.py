@@ -1,0 +1,10 @@
+gravity_constant = 6.67 * 10**(-11)
+acceleration_of_gravity = 9.8 
+speed_of_light = 3 * 10**8
+atomic_mass_unit = 1.66057 * 10**(-27) #атомная единица массы
+electron_mass = 9.11 *10**(-31) #масса электрона
+elementary_charge = 1.6 * 10**(-19) #элементарный заряд
+Avogadro_constant = 6.1 * 10**23
+Faraday_constant = 96484
+electrical_constant = 8.854188 * 10**(-12)
+Planck_constant = 6.626 * 10**(-34)
