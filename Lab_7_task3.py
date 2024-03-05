@@ -22,5 +22,4 @@ ani = FuncAnimation(fig,
                     frames=np.arange(0, 12*np.pi),
                     interval=30
                     )
-
 ani.save('animation_4.gif')

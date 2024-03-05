@@ -1,5 +1,5 @@
-import numpy as np import
-matplotlib.pyplot as plt
+import numpy as np 
+import matplotlib.pyplot as plt
 
 R = 1
 t = np. arange (0, 10, 0.01)
