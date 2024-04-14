@@ -12,7 +12,8 @@ def planet(R, angle_vel, time):
     return x, y
 
 def animate(i):
-    ball.set_data(planet(R=10, angle_vel=1, time=i))
+    earth.set_data(planet(R=10, angle_vel=1, time=i))
+    moon.set_data(moonplt(R=1.2, vel=365, t=i))
 
     ax.set_title("Движение вокруг солнца")
 
@@ -20,7 +21,9 @@ if __name__ == '__main__':
     fig, ax = plt.subplots()
     plt.grid()
     plt.plot([0], [0], "o", color = "orange", ms = 10)
-    ball, = plt.plot([], [], 'o', color='blue', label='Ball')
+    earth, = plt.plot([], [], 'o', color='blue', label='Ball')
+    moon, = plt.plot([], [], 'o', ms=3, color='grey')
+    
 
     edge = 12
 
